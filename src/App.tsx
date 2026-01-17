@@ -1,5 +1,5 @@
 // Suggestion: Install 'react-router-dom' and '@types/react-router-dom' in package.json
-// @ts-ignore
+// @ts-expect-error - react-router-dom types may not be installed
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Index from './pages/Index';
 import Navbar from './components/Navbar';

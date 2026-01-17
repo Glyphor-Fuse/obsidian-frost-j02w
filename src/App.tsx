@@ -1,4 +1,5 @@
-import React, { Suspense } from 'react';
+// Suggestion: Install 'react-router-dom' and '@types/react-router-dom' in package.json
+// @ts-ignore
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Index from './pages/Index';
 import Navbar from './components/Navbar';

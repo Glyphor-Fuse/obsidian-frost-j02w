@@ -1,9 +1,8 @@
-import React, { useRef, useState } from 'react';
-import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
+import React, { useRef } from 'react';
+import { motion, useMotionValue, useSpring } from 'framer-motion';
 
 const Atmosphere = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [hovered, setHovered] = useState(false);
   
   // Interactive "Temperature" Effect
   const mouseX = useMotionValue(0);
@@ -25,8 +24,6 @@ const Atmosphere = () => {
       ref={containerRef}
       className="relative py-32 md:py-48 px-6 bg-arctic-950 overflow-hidden"
       onMouseMove={handleMouseMove}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
     >
       {/* Interactive Background Glow */}
       <motion.div 

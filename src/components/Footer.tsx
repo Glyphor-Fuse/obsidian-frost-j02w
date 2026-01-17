@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, Instagram, Twitter, Facebook } from 'lucide-react';
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Hero from '../components/Hero';
 import GlacierGallery from '../components/GlacierGallery';
 import Atmosphere from '../components/Atmosphere';

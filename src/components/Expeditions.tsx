@@ -8,60 +8,21 @@ const expeditions = [
     price: "From $12,000",
     desc: "Navigate the frozen archipelago aboard a reinforced luxury vessel. Private suites, gourmet dining, and polar bear encounters.",
     icon: <Wind className="w-5 h-5" />,
-    img: "<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/34969513/pexels-photo-34969513.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Aerial view of a red icebreaker ship navigating through the icy waters of the Russian Arctic."
-    width="5083"
-    height="3806"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/icebreaker-navigating-arctic-ice-in-russia-34969513/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Dmitriy Ryndin on Pexels
-    </a>
-  </div>
-</div>"
+    img: "https://images.pexels.com/photos/34969513/pexels-photo-34969513.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
   },
   {
     title: "Glacier Trek",
     price: "From $8,500",
     desc: "A guided traverse across the Vatnajökull glacier. Sleep in heated glass igloos under the northern lights.",
     icon: <Mountain className="w-5 h-5" />,
-    img: "<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/18331875/pexels-photo-18331875.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Adventurers with crampons and ropes preparing for a snowy mountain climb."
-    width="6720"
-    height="4480"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/a-group-of-people-wearing-snow-shoes-and-climbing-ropes-18331875/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Maël  BALLAND on Pexels
-    </a>
-  </div>
-</div>"
+    img: "https://images.pexels.com/photos/18331875/pexels-photo-18331875.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
   },
   {
     title: "Deep Freeze Dive",
     price: "From $5,000",
     desc: "Plunge into the sub-zero waters between tectonic plates. The clearest water on Earth, a cathedral of blue.",
     icon: <Thermometer className="w-5 h-5" />,
-    img: "<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/35252461/pexels-photo-35252461.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" 
-    alt="Scuba diver silhouetted against blue water while exploring an underwater cave."
-    width="3132"
-    height="5568"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/silhouette-of-scuba-diver-exploring-underwater-cave-35252461/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Mido Makasardi ©️ on Pexels
-    </a>
-  </div>
-</div>"
+    img: "https://images.pexels.com/photos/35252461/pexels-photo-35252461.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
   }
 ];
 

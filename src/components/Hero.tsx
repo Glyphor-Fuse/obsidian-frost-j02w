@@ -17,20 +17,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#020617]/20 to-[#020617] z-10" />
         <div className="absolute inset-0 bg-black/30 z-10" />
         <img 
-          src="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/28729594/pexels-photo-28729594.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="A dramatic scene of an Arctic glacier under a foggy, overcast sky, conveying a cold, moody atmosphere."
-    width="6240"
-    height="4160"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/moody-landscape-of-arctic-glacier-and-misty-sky-28729594/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Francesco Ungaro on Pexels
-    </a>
-  </div>
-</div>" 
+          src="https://images.pexels.com/photos/28729594/pexels-photo-28729594.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
           alt="Arctic Landscape" 
           className="w-full h-full object-cover scale-110"
         />

@@ -2,62 +2,10 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 const images = [
-  { src: "<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/4206102/pexels-photo-4206102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
-    alt="Detailed close-up of crystalline ice formations in wintery Iceland."
-    width="5102"
-    height="5102"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/close-up-of-ice-4206102/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Valdemaras D. on Pexels
-    </a>
-  </div>
-</div>", alt: "Glacial Texture", speed: 0.1 },
-  { src: "<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/10987653/pexels-photo-10987653.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" 
-    alt="A woman in a blue dress walking alone on a snow-covered road during winter, creating a serene scene."
-    width="3780"
-    height="5670"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/woman-holding-a-bag-while-walking-on-snow-covered-ground-10987653/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Danila Chertov on Pexels
-    </a>
-  </div>
-</div>", alt: "Expedition", speed: 0.3 },
-  { src: "<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/1933317/pexels-photo-1933317.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Captivating view of the Northern Lights over snow-covered Lofoten Islands at night."
-    width="4928"
-    height="3280"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/aurora-borealis-photo-1933317/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by stein egil liland on Pexels
-    </a>
-  </div>
-</div>", alt: "Aurora", speed: 0.2 },
-  { src: "<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/60050/huskies-husky-blue-eye-dog-60050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Four Siberian Huskies running in a winter wonderland, perfect for adventure themes."
-    width="4839"
-    height="3369"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/huskeys-driving-sled-through-white-snow-60050/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Pixabay on Pexels
-    </a>
-  </div>
-</div>", alt: "Sledding", speed: 0.15 },
+  { src: "https://images.pexels.com/photos/4206102/pexels-photo-4206102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", alt: "Glacial Texture", speed: 0.1 },
+  { src: "https://images.pexels.com/photos/10987653/pexels-photo-10987653.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800", alt: "Expedition", speed: 0.3 },
+  { src: "https://images.pexels.com/photos/1933317/pexels-photo-1933317.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200", alt: "Aurora", speed: 0.2 },
+  { src: "https://images.pexels.com/photos/60050/huskies-husky-blue-eye-dog-60050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200", alt: "Sledding", speed: 0.15 },
 ];
 
 const GlacierGallery = () => {
